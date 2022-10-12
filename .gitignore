@@ -1,3 +1,6 @@
 # Ignore work in progress 
 
 /docs/.wip
+
+# Ignore site directory
+site
