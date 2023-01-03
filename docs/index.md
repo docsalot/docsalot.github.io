@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# The docsalot Blog
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Hi, I'm Bill. I'm a technical writer based out of Calgary, Alberta. 
 
 ## Commands
 
