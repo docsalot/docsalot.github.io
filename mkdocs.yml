@@ -4,82 +4,82 @@ site_name: My Docs
 # Theme
 theme:
   name: material
-  # logo: material/Book
-  # favicon: images/favicon.png
-  features:
-    - header.autohide
-    - navigation.indexes
-    - navigation.prune
-  palette:
-    
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default 
-      accent: blue
-      primary: orange
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      accent: blue
-      primary: orange
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to light mode1
-
-
-
-
-# Git
-repo_url: https://github.com/docsalot/docsalot.github.io
-repo_name: docsalot/docsalot.github.io
-
-
-# Extensions
-markdown_extensions:
-  - abbr
-  - admonition
-  - attr_list
-  - footnotes
-  - tables
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.snippets:
-      auto_append:
-        - includes/abbreviations.md
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-
-# Plugins
-plugins:
-  - blog:
-      post_readtime: true
-      post_readtime_words_per_minute: 240
-  - glightbox
-  - search
-
-
-
-# Footer
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/docsalot
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/williamleinweber/
-
-
-# Site navigation
-nav:
-  - Home: 
-    - index.md
-  - Blog:
-    - blog/index.md 
+#  # logo: material/Book
+#  # favicon: images/favicon.png
+#  features:
+#    - header.autohide
+#    - navigation.indexes
+#    - navigation.prune
+#  palette:
+#    
+#    # Palette toggle for light mode
+#    - media: "(prefers-color-scheme: light)"
+#      scheme: default 
+#      accent: blue
+#      primary: orange
+#      toggle:
+#        icon: material/toggle-switch
+#        name: Switch to dark mode
+#
+#    # Palette toggle for dark mode
+#    - media: "(prefers-color-scheme: dark)"
+#      scheme: slate
+#      accent: blue
+#      primary: orange
+#      toggle:
+#        icon: material/toggle-switch-off-outline
+#        name: Switch to light mode1
+#
+#
+#
+#
+## Git
+#repo_url: https://github.com/docsalot/docsalot.github.io
+#repo_name: docsalot/docsalot.github.io
+#
+#
+## Extensions
+#markdown_extensions:
+#  - abbr
+#  - admonition
+#  - attr_list
+#  - footnotes
+#  - tables
+#  - pymdownx.details
+#  - pymdownx.emoji:
+#      emoji_index: !!python/name:materialx.emoji.twemoji
+#      emoji_generator: !!python/name:materialx.emoji.to_svg
+#  - pymdownx.snippets:
+#      auto_append:
+#        - includes/abbreviations.md
+#  - pymdownx.superfences:
+#      custom_fences:
+#        - name: mermaid
+#          class: mermaid
+#          format: !!python/name:pymdownx.superfences.fence_code_format
+#
+## Plugins
+#plugins:
+#  - blog:
+#      post_readtime: true
+#      post_readtime_words_per_minute: 240
+#  - glightbox
+#  - search
+#
+#
+#
+## Footer
+#extra:
+#  social:
+#    - icon: fontawesome/brands/github
+#      link: https://github.com/docsalot
+#    - icon: fontawesome/brands/linkedin
+#      link: https://www.linkedin.com/in/williamleinweber/
+#
+#
+## Site navigation
+#nav:
+#  - Home: 
+#    - index.md
+#  - Blog:
+#    - blog/index.md 
